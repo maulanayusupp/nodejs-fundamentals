@@ -1,0 +1,22 @@
+{
+  "name": "notes-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maulanayusupp/nodejs-fundamentals.git"
+  },
+  "author": "Maulana Yusup Abdullah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maulanayusupp/nodejs-fundamentals/issues"
+  },
+  "homepage": "https://github.com/maulanayusupp/nodejs-fundamentals#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
