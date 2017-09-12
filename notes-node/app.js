@@ -8,6 +8,8 @@ const os = require('os')
 
 /* notes js */
 const notes = require('./notes.js');
+var result = notes.addNote();
 
-var user = os.userInfo();
-fs.appendFile('greetings.txt', `Bro ${user.username}!`);
+console.log('Result: ', notes.add(9,-2));
+/*var user = os.userInfo();
+fs.appendFile('greetings.txt', `Bro ${user.username}! Your are ${notes.age}`);*/
